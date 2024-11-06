@@ -24,6 +24,9 @@ const renderCountries  = () => {
     countries.forEach(country => makeCountry(country))
 }
 
+
+
+
 const showInfo = (event)=>{
     let currentCountry = event.target.children[1].textContent
     let foundContry = countries.find(country => country.name === currentCountry)
